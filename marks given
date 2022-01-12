@@ -1,0 +1,9 @@
+print("Marks Obtain By Student")
+let a=80
+print("Marks Obtain in English is :",a)
+let b=60
+print("Marks Obtain in Maths is :",b)
+let c=76
+print("Marks Obtain in Science is :",c)
+let d=65
+print("MArks Obtain in Computer Science :",d)
