@@ -1,0 +1,9 @@
+struct book{
+    let name:String
+    let author:String
+    let pages:Int
+ }
+    let bookdetail = book(name:"Swift Programming: The Big Nerd Ranch Guide",author:"Matthew Mathias",pages:480)
+    print("Book Name:",bookdetail.name)
+    print("Author name:",bookdetail.author)
+    print("Number of Pages:", bookdetail.pages)
