@@ -1,0 +1,9 @@
+struct mobile {
+    var companyname:String
+    var model: String
+    var specification:String
+}
+let mobileinfo = mobile(companyname:"Apple",model:"iPhone 13 Pro",specification:"RAM:8GB \nStorage:256GB \nBack Camera:12mp+12mp+12mp \nFront Camera:12mp \nDisplay Size:6.1 inch  \nProcessor:A15 bionic chip \nNetwork Support Type:5G")
+print(mobileinfo.companyname)
+print(mobileinfo.model)
+print(mobileinfo.specification)
