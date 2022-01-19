@@ -1,0 +1,3 @@
+let firstsale=20000000
+let secondsale=30000000
+print("The sale of parle in first 6 months is \(firstsale) and next 6 months is \(secondsale) and the total sale of the year is \(firstsale+secondsale)")
