@@ -1,0 +1,31 @@
+struct temperature {
+    var celcius: Double
+    var Fahrenheit: Double
+    var kelvin: Double
+    
+    init(celcius: Double) {
+        self.celcius = celcius
+        Fahrenheit = (celcius*9/5)+32
+        kelvin = celcius+273.15
+}
+    init(kelvin: Double) {
+        self.kelvin = kelvin
+        celcius = kelvin-273.15
+        Fahrenheit =
+        (kelvin-273.15)*9/5+32
+  }
+    init(Fahrenheit: Double){
+        self.Fahrenheit = Fahrenheit
+        kelvin = (Fahrenheit-32)*5/9+273.15
+        celcius = (Fahrenheit-32)*5/9
+    }
+}
+
+
+let temperatureincelcius = temperature(kelvin:500)
+let temperatureinkelvin = temperature(Fahrenheit:100)
+let temperatureinfahrenhiet = temperature(celcius:150)
+
+print(temperatureinkelvin.kelvin)
+print(temperatureincelcius.celcius)
+print(temperatureinfahrenhiet.Fahrenheit)
