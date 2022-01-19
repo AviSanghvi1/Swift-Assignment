@@ -1,0 +1,6 @@
+let First = "Avi"
+let Last =  "Sanghvi1"
+var Name = First+Last
+var username = "My username is "
+username += Name
+print(username)
