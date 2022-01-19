@@ -1,0 +1,17 @@
+
+print("Enter Age of A:")
+let A=Int(readLine()!)
+print("Enter Age of B:")
+let B=Int(readLine()!)
+print("Enter Age of C:")
+let C=Int(readLine()!)
+
+if (A!)<(B!) && (A!)<(C!) {
+    print("A is smallest") 
+}
+else if (B!)<(A!) && (B!)<(C!) {
+    print("B is smallest")
+}
+else{
+    print("C is smallest")
+    }
