@@ -1,0 +1,9 @@
+func check(num:Int) {
+        
+if num%2==0 {
+print("\(num) is even number")
+}else{
+print("\(num) is odd number")
+}
+}
+check(num:8)
