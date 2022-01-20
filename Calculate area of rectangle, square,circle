@@ -1,0 +1,39 @@
+func areaofrectangle(){
+    print("Enter length:")
+    let a=Float(readLine()!)
+    print("Enter breadth:")
+    let b=Float(readLine()!)
+    var area:Float
+    area=a!*b!
+    print("area of rectangle is ",area)
+}
+ 
+func areaofsquare(){
+    print("Enter lenght of side of square")
+    let a=Float(readLine()!)
+    var area:Float
+    area=a!*a!
+    print("area of square is",area)
+}
+
+func areaofcircle(){
+    print("Enter Radius of the circle")
+    let r=Float(readLine()!)
+    var area:Float
+    area=(22/7)*r!*r!
+    print("area of circle is",area)
+}
+print("1:Area of Rectangle\n2:Area of Square\n3:Area of Circle\nEnter the option:")
+var c=Int(readLine()!)
+
+switch c{
+    case 1:
+      areaofrectangle()
+    case 2:
+      areaofsquare()
+    case 3:
+      areaofcircle()
+    default:
+      print("Invalid Input")
+      
+}
