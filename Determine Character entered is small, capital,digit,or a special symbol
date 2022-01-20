@@ -1,0 +1,18 @@
+
+print("Enter the Character:")
+var check=(readLine()!)
+
+var c=UnicodeScalar(check)!.value
+
+if c>=65 && c<=90{
+		print("\n\n Capital letter has entered.")
+		}
+else if c>=48 && c<=57{
+		print("\n\n Digit has entered.")
+		}
+else if(c>=97 && c<=122){
+		print("\n\n Small letter has entered.")
+		}
+else{
+		print("\n\n Special symbol has entered.")
+		}
