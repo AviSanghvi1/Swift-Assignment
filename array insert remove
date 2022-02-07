@@ -1,0 +1,13 @@
+var scientists = ["Albert Einstein","Stephen Hawking","Isaac Newton","Galileo Galilei"]
+print("Array before any changes \(scientists)")
+scientists.insert("Charles Darwin",at:1)
+scientists.insert("Michael Faraday",at:3)
+print("Array after insert \(scientists)")
+scientists.removeFirst()
+print("Array after removing value from first \(scientists)")
+scientists.removeLast()
+print("Array after removing value from last \(scientists)")
+scientists.remove(at:2)
+print("Array after removing value from postition 1 \(scientists)")
+scientists.removeAll()
+print("Array after removing all values \(scientists)")
