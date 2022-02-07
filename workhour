@@ -1,0 +1,14 @@
+print("Enter startworkhour")
+var startworkhour = Int(readLine()!)
+print("Enter endworkhour")
+var endworkhour = Int(readLine()!)
+print("Enter startworkminute")
+var startworkminute = Int(readLine()!)
+print("Enter endworkminute")
+var endworkminute = Int(readLine()!)
+
+var totalhours : Int
+totalhours = endworkhour! - startworkhour!
+var totalminutes : Int
+totalminutes = endworkminute! - startworkminute!
+print(totalhours,totalminutes,separator: ".")
