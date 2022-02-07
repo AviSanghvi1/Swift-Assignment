@@ -1,0 +1,13 @@
+var fruits = ["Apple","Mango","Banana","Orange"]
+fruits.append("Pineapple")
+print(fruits)
+if fruits.contains("Apple")
+{
+   print("It is present")
+}
+else
+{
+   print("It does not contain Apple")
+}
+fruits.insert("Watermelon",at:2)
+print(fruits)
